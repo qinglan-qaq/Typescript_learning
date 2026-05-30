@@ -1,0 +1,27 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "TypeScript 学习教程与练习项目",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "tsc && node dist/ts_demo1.js",
+    "dev": "ts-node ts_demo1.ts",
+    "dev:demo2": "ts-node ts_demo2.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "tutorial"
+  ],
+  "author": "qinglan-qaq",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.8.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}
